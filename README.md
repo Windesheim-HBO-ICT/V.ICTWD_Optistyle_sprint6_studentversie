@@ -7,7 +7,7 @@ Inmiddels zijn we volledig losgekomen van onze MVC-app/SPA + API-constructie. De
 Ik kan je vertellen: het heeft heel wat bloed, zweet, en ChatGPT* gekost. 😮‍💨
 Om te voorkomen dat CORS de API-calls tussen projecten blokkeert, hebben we een reverse proxy toegevoegd aan het SPA-project (zie Program.cs). We hebben hiervoor gebruikgemaakt van YARP (https://learn.microsoft.com/nl-nl/aspnet/core/fundamentals/servers/yarp/yarp-overview?view=aspnetcore-10.0).
 
-*Uiteraard gebruiken wij ook GenAI. Voor ons gelden dezelfde regels als voor jullie: we zijn kritisch op wat het genereerd en zetten het veilig en verantwoord in.
+*Uiteraard gebruiken wij ook GenAI. Voor ons gelden dezelfde regels als voor jullie: we zijn kritisch op wat het genereert en zetten het veilig en verantwoord in.
 
 ## What's not new?
 We focussen ons meer en meer op het realiseren, zoals je wellicht gemerkt hebt. Daarbij moeten we keuzes maken. Wij hebben ervoor gekozen om geen nieuwe versie van het FO en TO te geven van Optistyle. 
