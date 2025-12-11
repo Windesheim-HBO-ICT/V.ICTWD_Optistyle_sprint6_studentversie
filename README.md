@@ -3,7 +3,7 @@ De tijd vliegt: sprint 6 alweer. Tijdens deze sprint ga je aan de slag met authe
 Deze repository is de startrepo van deze sprint: hierin ga je veilig authenticatie en autorisatie realiseren onder begeleiding van de vakdocenten.
 
 ## What's new?
-Inmiddels zijn we volledig losgekomen van onze MVC-app/SPA + API-constructie. De SPA is een volwaardige vervanging geworden van de MVC-app. Bovendien is .NET 10 sinds kort uit, dus we hebben ervoor gekozen om de SPA direct te ontwikkelen in deze latest stable.
+Inmiddels zijn we volledig losgekomen van onze MVC-app/SPA + API-constructie. De SPA is een volwaardige vervanging geworden van de MVC-app. Bovendien is .NET 10 sinds kort uit, dus we hebben ervoor gekozen om de projecten en nuget packages te updaten van 8.0 naar deze latest stable.
 Ik kan je vertellen: het heeft heel wat bloed, zweet, en ChatGPT* gekost. 😮‍💨
 Om te voorkomen dat CORS de API-calls tussen projecten blokkeert, hebben we een reverse proxy toegevoegd aan het SPA-project (zie Program.cs). We hebben hiervoor gebruikgemaakt van YARP (https://learn.microsoft.com/nl-nl/aspnet/core/fundamentals/servers/yarp/yarp-overview?view=aspnetcore-10.0).
 
