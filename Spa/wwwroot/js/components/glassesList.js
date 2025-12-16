@@ -5,15 +5,16 @@ export async function renderGlassesList() {
     const container = document.getElementById("glasses-list");
     container.innerHTML = "";
     data.forEach(item => {
-        const product = document.createElement("div");
-        product.className = "product";
-        product.innerHTML = `
-                     <a href="/glasses/details/${encodeURIComponent(item.sku)}" data-link>  
+        const productLink = document.createElement("a");
+        productLink.className = "product-link";
+        productLink.href = `/brillen/details/${item.sku}`;
+        productLink.innerHTML = `
+                     <div class="product">  
                         <img src="${item.imageUrl}" alt="${item.imageAlt}" class="responsiveImage" />
                         <h2>${item.name}</h2>
                         <p>vanaf &euro;${item.price}</p>
                      </div>
                 `;
-        container.appendChild(product);
+        container.appendChild(productLink);
     });
 }
