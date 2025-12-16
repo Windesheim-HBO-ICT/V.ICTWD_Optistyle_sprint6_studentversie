@@ -178,6 +178,7 @@ main p{
     position: fixed;
     top: unset;
     bottom: 0;
+    z-index: 10;
 
     > ul{
       padding: 0;
